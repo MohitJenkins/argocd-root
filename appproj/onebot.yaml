@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   sourceRepos:
-    - "https://github.com/your-org/onebot.git"
+    - "https://github.com/MohitJenkins/argocd-example-apps.git"
   destinations:
     - namespace: onebot-ns
       server: "https://kubernetes.default.svc"
